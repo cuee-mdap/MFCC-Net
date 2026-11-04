@@ -1,0 +1,86 @@
+{
+  "note": "ภาพตัวอย่างสำหรับ README เท่านั้น ผลครบทุกภาพอยู่นอก repo",
+  "files": [
+    {
+      "dataset": "Set5",
+      "image": "butterfly",
+      "scale": 4,
+      "kind": "LR",
+      "file": "Set5_butterfly_x4_LR.png",
+      "source": "benchmark/benchmark_rcan_san/Set5/LR_bicubic/x4/butterflyx4.png",
+      "bytes": 10392
+    },
+    {
+      "dataset": "Set5",
+      "image": "butterfly",
+      "scale": 4,
+      "kind": "SR",
+      "file": "Set5_butterfly_x4_SR.png",
+      "source": "261023-result-image/original_LR/MFCC/Set5_x4/butterfly_x4_SR.png",
+      "bytes": 113364
+    },
+    {
+      "dataset": "Set5",
+      "image": "butterfly",
+      "scale": 4,
+      "kind": "HR",
+      "file": "Set5_butterfly_x4_HR.png",
+      "source": "benchmark/benchmark_rcan_san/Set5/HR/butterfly.bmp",
+      "bytes": 129936
+    },
+    {
+      "dataset": "Set14",
+      "image": "zebra",
+      "scale": 4,
+      "kind": "LR",
+      "file": "Set14_zebra_x4_LR.png",
+      "source": "benchmark/benchmark_rcan_san/Set14/LR_bicubic/x4/zebrax4.png",
+      "bytes": 33881
+    },
+    {
+      "dataset": "Set14",
+      "image": "zebra",
+      "scale": 4,
+      "kind": "SR",
+      "file": "Set14_zebra_x4_SR.png",
+      "source": "261023-result-image/original_LR/MFCC/Set14_x4/zebra_x4_SR.png",
+      "bytes": 345433
+    },
+    {
+      "dataset": "Set14",
+      "image": "zebra",
+      "scale": 4,
+      "kind": "HR",
+      "file": "Set14_zebra_x4_HR.png",
+      "source": "benchmark/benchmark_rcan_san/Set14/HR/zebra.bmp",
+      "bytes": 442438
+    },
+    {
+      "dataset": "Urban100",
+      "image": "img092",
+      "scale": 4,
+      "kind": "LR",
+      "file": "Urban100_img092_x4_LR.png",
+      "source": "benchmark/benchmark_rcan_san/Urban100/LR_bicubic/x4/img092x4.png",
+      "bytes": 95005
+    },
+    {
+      "dataset": "Urban100",
+      "image": "img092",
+      "scale": 4,
+      "kind": "SR",
+      "file": "Urban100_img092_x4_SR.png",
+      "source": "261023-result-image/original_LR/MFCC/Urban100_x4/img092_x4_SR.png",
+      "bytes": 1211355
+    },
+    {
+      "dataset": "Urban100",
+      "image": "img092",
+      "scale": 4,
+      "kind": "HR",
+      "file": "Urban100_img092_x4_HR.png",
+      "source": "benchmark/benchmark_rcan_san/Urban100/HR/img092.png",
+      "bytes": 1568721
+    }
+  ]
+}

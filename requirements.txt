@@ -1,0 +1,5 @@
+# Install a CPU/CUDA torch wheel appropriate to the target machine first.
+torch>=2.2,<3
+numpy>=1.26,<3
+Pillow>=10,<13
+# ทดสอบจริงบน 2.2.2+cu121 (Linux/CUDA) และ 2.12.1+cpu (Windows)

@@ -1,0 +1,28 @@
+# ผลทดลอง ชุดข้อมูล และ environment ไม่เข้า repo — น้ำหนัก Journal เข้า (ไฟล์ละไม่เกิน 10 MB)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+data/
+datasets/
+Dataset/
+benchmark/
+runs/
+outputs/
+*.log
+*.out
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# น้ำหนักทั่วไปไม่เข้า แต่ยกเว้นน้ำหนัก Journal ที่ตรวจ hash แล้ว
+*.pt
+*.pth
+*.ckpt
+*.onnx
+!weights/mfcc_x2.pt
+!weights/mfcc_x3.pt
+!weights/mfcc_x4.pt
+!weights/mfcc_x8.pt

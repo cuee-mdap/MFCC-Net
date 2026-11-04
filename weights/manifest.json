@@ -1,0 +1,64 @@
+{
+  "architecture": "rc20r2rg1nup; 64 channels, 20 RCAB, shared RG, RGB range 1",
+  "selection_evidence": "2023-ResultImage/rc20r2rg1nup/config.txt and log.txt identify evaluation checkpoint names; journal/jornal archives contain matching training runs. Set5 reproduction pending.",
+  "checkpoints": {
+    "2": {
+      "file": "mfcc_x2.pt",
+      "sha256": "2ef9af598ef62cddae415bf431583d5e410998994ff4b1bb24d3de4c65833b90",
+      "bytes": 7590879,
+      "original_path": "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x2_p96_lr200_800_841_859_jornal/model/model_best.pt",
+      "training_log_best_set5_psnr": 38.164,
+      "journal_inference_mode": "chop",
+      "legacy_config": "2021-07-25-00:45:32\n\ndebug: False\ntemplate: .\nn_threads: 16\ncpu: False\nn_GPUs: 1\nseed: 1\ndir_data: ../../Dataset\ndir_demo: ../test\ndata_train: ['DIV2K']\ndata_test: ['Set5']\ndata_range: 1-800/1-5\next: sep\nscale: [2]\npatch_size: 96\nrgb_range: 1\nn_colors: 3\nchop: True\nno_augment: False\nmodel: rc20r2rg1nup\nact: relu\npre_train: ../experiment/dgx_rc20r2rg1nup_x2_p96_lr200_800_841/model/model_best.pt\nextend: .\nn_resblocks: 20\nn_feats: 64\nres_scale: 1\nshift_mean: True\ndilation: False\nprecision: single\nG0: 64\nRDNkSize: 3\nRDNconfig: B\ndepth: 12\nn_resgroups: 10\nreduction: 16\nreset: True\ntest_every: 1000\nepochs: 1000\nbatch_size: 16\nsplit_batch: 1\nself_ensemble: False\ntest_only: False\ngan_k: 1\nlr: 1.25e-05\ndecay: 200\ngamma: 0.5\noptimizer: ADAM\nmomentum: 0.9\nbetas: (0.9, 0.999)\nepsilon: 1e-08\nweight_decay: 0\ngclip: 0\nloss: 1*L1\nskip_threshold: 100000000.0\nsave: dgx_rc20r2rg1nup_x2_p96_lr200_800_841_859\nload: \nresume: 0\nsave_models: False\nprint_every: 100\nsave_results: True\nsave_gt: False\n\n"
+    },
+    "3": {
+      "file": "mfcc_x3.pt",
+      "sha256": "f9bb80d41f1eec85da3745fd50efa885a4cdc451bb08e2c0920c2698329de66f",
+      "bytes": 9067999,
+      "original_path": "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x3_p144_lr200_506_jornal/model/model_best.pt",
+      "training_log_best_set5_psnr": 34.671,
+      "journal_inference_mode": "chop",
+      "legacy_config": "2021-07-29-20:10:22\n\ndebug: False\ntemplate: .\nn_threads: 16\ncpu: False\nn_GPUs: 1\nseed: 1\ndir_data: ../../Dataset\ndir_demo: ../test\ndata_train: ['DIV2K']\ndata_test: ['Set5']\ndata_range: 1-800/1-5\next: sep\nscale: [3]\npatch_size: 144\nrgb_range: 1\nn_colors: 3\nchop: True\nno_augment: False\nmodel: rc20r2rg1nup\nact: relu\npre_train: ../experiment/dgx_rc20r2rg1nup_x3_p144_lr200/model/model_best.pt\nextend: .\nn_resblocks: 20\nn_feats: 64\nres_scale: 1\nshift_mean: True\ndilation: False\nprecision: single\nG0: 64\nRDNkSize: 3\nRDNconfig: B\ndepth: 12\nn_resgroups: 10\nreduction: 16\nreset: True\ntest_every: 1000\nepochs: 1000\nbatch_size: 16\nsplit_batch: 1\nself_ensemble: False\ntest_only: False\ngan_k: 1\nlr: 5e-05\ndecay: 200\ngamma: 0.5\noptimizer: ADAM\nmomentum: 0.9\nbetas: (0.9, 0.999)\nepsilon: 1e-08\nweight_decay: 0\ngclip: 0\nloss: 1*L1\nskip_threshold: 100000000.0\nsave: dgx_rc20r2rg1nup_x3_p144_lr200_506\nload: \nresume: 0\nsave_models: False\nprint_every: 100\nsave_results: True\nsave_gt: False\n\n"
+    },
+    "4": {
+      "file": "mfcc_x4.pt",
+      "sha256": "bccd6b3e66415a901b843c7e31a0ec28b6714a2ab62776c39b914b53272331f1",
+      "bytes": 8774019,
+      "original_path": "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x4_p192_lr200_745_592_748_747l1_journal/model/model_best.pt",
+      "training_log_best_set5_psnr": 32.423,
+      "journal_inference_mode": "chop",
+      "legacy_config": "2021-07-31-22:49:28\n\ndebug: False\ntemplate: .\nn_threads: 16\ncpu: False\nn_GPUs: 1\nseed: 1\ndir_data: ../../Dataset\ndir_demo: ../test\ndata_train: ['DIV2K']\ndata_test: ['Set5']\ndata_range: 1-800/1-5\next: sep\nscale: [4]\npatch_size: 192\nrgb_range: 1\nn_colors: 3\nchop: True\nno_augment: False\nmodel: rc20r2rg1nup\nact: relu\npre_train: ../experiment/dgx_rc20r2rg1nup_x4_p192_lr200_745_592_748l1/model/model_best.pt\nextend: .\nn_resblocks: 20\nn_feats: 64\nres_scale: 1\nshift_mean: True\ndilation: False\nprecision: single\nG0: 64\nRDNkSize: 3\nRDNconfig: B\ndepth: 12\nn_resgroups: 10\nreduction: 16\nreset: True\ntest_every: 1000\nepochs: 1000\nbatch_size: 16\nsplit_batch: 1\nself_ensemble: False\ntest_only: False\ngan_k: 1\nlr: 0.0001\ndecay: 200\ngamma: 0.5\noptimizer: ADAM\nmomentum: 0.9\nbetas: (0.9, 0.999)\nepsilon: 1e-08\nweight_decay: 0\ngclip: 0\nloss: 1*L1\nskip_threshold: 100000000.0\nsave: dgx_rc20r2rg1nup_x4_p192_lr200_745_592_748_747l1\nload: \nresume: 0\nsave_models: False\nprint_every: 100\nsave_results: True\nsave_gt: False\n\n"
+    },
+    "8": {
+      "file": "mfcc_x8.pt",
+      "sha256": "b93aeb9a05a117a0e1b853a99dc46f35325056a671f5c02502204195ce20fc96",
+      "bytes": 9957159,
+      "original_path": "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x8_p384_lr200_355_436lr1/model/model_best.pt",
+      "training_log_best_set5_psnr": 27.069,
+      "journal_inference_mode": "direct",
+      "legacy_config": "2021-08-01-22:48:03\n\ndebug: False\ntemplate: .\nn_threads: 16\ncpu: False\nn_GPUs: 1\nseed: 1\ndir_data: ../../Dataset\ndir_demo: ../test\ndata_train: ['DIV2K']\ndata_test: ['Set5']\ndata_range: 1-800/1-5\next: sep\nscale: [8]\npatch_size: 384\nrgb_range: 1\nn_colors: 3\nchop: True\nno_augment: False\nmodel: rc20r2rg1nup\nact: relu\npre_train: ../experiment/dgx_rc20r2rg1nup_x8_p384_lr200_355/model/model_best.pt\nextend: .\nn_resblocks: 20\nn_feats: 64\nres_scale: 1\nshift_mean: True\ndilation: False\nprecision: single\nG0: 64\nRDNkSize: 3\nRDNconfig: B\ndepth: 12\nn_resgroups: 10\nreduction: 16\nreset: True\ntest_every: 1000\nepochs: 1000\nbatch_size: 16\nsplit_batch: 1\nself_ensemble: False\ntest_only: False\ngan_k: 1\nlr: 0.0001\ndecay: 200\ngamma: 0.5\noptimizer: ADAM\nmomentum: 0.9\nbetas: (0.9, 0.999)\nepsilon: 1e-08\nweight_decay: 0\ngclip: 0\nloss: 1*L1\nskip_threshold: 100000000.0\nsave: dgx_rc20r2rg1nup_x8_p384_lr200_355_436lr1\nload: \nresume: 0\nsave_models: False\nprint_every: 100\nsave_results: True\nsave_gt: False\n\n"
+    }
+  },
+  "source_files": {
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x2_p96_lr200_800_841_859_jornal/model/model_best.pt": "2ef9af598ef62cddae415bf431583d5e410998994ff4b1bb24d3de4c65833b90",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x2_p96_lr200_800_841_859_jornal/config.txt": "ca2884ba6cf87d745ae3aacdddac757db5208bcb8d88bc953985e7af741e69e7",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x2_p96_lr200_800_841_859_jornal/log.txt": "00089ff586ac29ddf4d38f10c027df68f296a7e6441e055a514ef3ab6bcef2e4",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x3_p144_lr200_506_jornal/model/model_best.pt": "f9bb80d41f1eec85da3745fd50efa885a4cdc451bb08e2c0920c2698329de66f",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x3_p144_lr200_506_jornal/config.txt": "1b78ded1a2e6ebdcfe325a62fc10be40fffc31e2f83427a91edb5cdb96c4b26a",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x3_p144_lr200_506_jornal/log.txt": "09d43ac4ef28f8b1eb6276db85e3a329e6546ae01b2be4c2b8a3ea1630abec99",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x4_p192_lr200_745_592_748_747l1_journal/model/model_best.pt": "bccd6b3e66415a901b843c7e31a0ec28b6714a2ab62776c39b914b53272331f1",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x4_p192_lr200_745_592_748_747l1_journal/config.txt": "08d2f260007d89ced3bce32ffb938402591791fdda0b6668f3c232489573b06e",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x4_p192_lr200_745_592_748_747l1_journal/log.txt": "5efa76631762f4fcd1a837e35444d26b4a85e5a0ee40d1ee6a1a93d5fa39a2dd",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x8_p384_lr200_355_436lr1/model/model_best.pt": "b93aeb9a05a117a0e1b853a99dc46f35325056a671f5c02502204195ce20fc96",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x8_p384_lr200_355_436lr1/config.txt": "a574d075477efcf82e33fed50051a3b01fdca2a3ef4c057c13c6933368765e46",
+    "2021-08-29 dgx/experiment20210829/dgx_rc20r2rg1nup_x8_p384_lr200_355_436lr1/log.txt": "ac3c09d8afa4c39c849e4797682e61f0d1e9875058bfc3ec9d1f8836599fe55d",
+    "2021-08-29 dgx/srn20210829/model/rc20r2rg1nup.py": "1de34401689d58147c0b050b12f43fe0448c4dc264c7a9564174aade8e928a26",
+    "2021-08-29 dgx/srn20210829/model/common.py": "699b50a4305c54af57adb4f03332d241e2f74cb503116f1afea1d29e8d3cd1f1",
+    "2021-08-29 dgx/srn20210829/model/__init__.py": "e52ea816c12dbf0685bfe002d6fd5c2097476828476c7bbdbfe593e58bd5aed5",
+    "2021-08-29 dgx/srn20210829/data/common.py": "5f1ddaf2292d11a58e8309a50d872ea8ef1b1ba15526a042645c21e837f01243",
+    "2021-08-29 dgx/srn20210829/trainer.py": "18a1bee6b27ad25ea0aaf3a29d9163019d89427180b4449a2f9f68d36755434f",
+    "2021-08-29 dgx/srn20210829/utility.py": "a3db43f218d343b7021d3834eda67739058efcbdd499a79cc866e7418029d9b2",
+    "2023-ResultImage/rc20r2rg1nup/config.txt": "363f2f75c9ca6a3c18f233ce1dd6daf820e6b9f7d9534c23159fc4d3e17bb499",
+    "2023-ResultImage/rc20r2rg1nup/log.txt": "957436e6be8fef33785a4aca619ae9502e699685846ebdfc190ccf883f3da878"
+  }
+}
