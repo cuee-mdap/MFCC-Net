@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the MFCC Journal paper when using this research code."
-title: "Multi-FusNet of Cross Channel Network for Image Super-Resolution"
-type: article
+message: "If you use this code or the released weights, please cite the MFCC paper."
+title: "MFCC: Multi-FusNet of Cross Channel Network for Image Super-Resolution"
+repository-code: "https://github.com/cuee-mdap/mfcc-net"
+license: MIT
 authors:
   - family-names: Ruangsang
     given-names: Watchara
@@ -9,9 +10,19 @@ authors:
     given-names: Supavadee
   - family-names: Onoye
     given-names: Takao
-doi: 10.1109/ACCESS.2023.3282571
-journal: IEEE Access
-volume: 11
-start: 56287
-end: 56299
-year: 2023
+preferred-citation:
+  type: article
+  title: "Multi-FusNet of Cross Channel Network for Image Super-Resolution"
+  authors:
+    - family-names: Ruangsang
+      given-names: Watchara
+    - family-names: Aramvith
+      given-names: Supavadee
+    - family-names: Onoye
+      given-names: Takao
+  journal: "IEEE Access"
+  volume: 11
+  start: 56287
+  end: 56299
+  year: 2023
+  doi: "10.1109/ACCESS.2023.3282571"
