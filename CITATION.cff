@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or the released weights, please cite the MFCC paper."
 title: "MFCC: Multi-FusNet of Cross Channel Network for Image Super-Resolution"
-repository-code: "https://github.com/cuee-mdap/mfcc-net"
+repository-code: "https://github.com/cuee-mdap/MFCC-Net"
 license: MIT
 authors:
   - family-names: Ruangsang
